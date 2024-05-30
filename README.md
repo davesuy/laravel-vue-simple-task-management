@@ -2,8 +2,7 @@
 
 <h2>To run the project.</h2>
 
-<h3>Clone the Repo and open the terminal and type.</h3>
-
+<h3>Clone the Repo then open a terminal app and type.</h3>
 
 git clone https://github.com/davesuy/laravel-vue-simple-task-management.git
 
@@ -13,7 +12,6 @@ composer install
 
 npm install
 
-php artisan key:generate
 
 <h3>copy .env.example file and rename it to .env and add this to the file</h3>
 
@@ -23,6 +21,8 @@ DB_DATABASE=/your-path/laravel-vue-simple-task-management/database/database.sqli
 If the database file does not exist, you need to create it. You can do this manually or by running database migrations:</h3>
 
 touch /your-path/laravel-vue-simple-task-management/database/database.sqlite
+
+php artisan key:generate
 
 <h3>Set Correct Permissions:
 Ensure that the directory containing the SQLite database file has the correct permissions so that the Laravel application can read and write to it.</h3>

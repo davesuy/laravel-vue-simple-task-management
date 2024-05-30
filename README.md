@@ -13,6 +13,7 @@ composer install
 
 npm install
 
+php artisan key:generate
 
 <h3>copy .env.example file and rename it to .env and add this to the file</h3>
 
